@@ -1,0 +1,11 @@
+package Practise;
+
+ class Amalu extends Amal {
+	 Amalu(){
+		 System.out.println(2);
+	 }
+	public static void main(String[] args) {
+		Amalu a = new Amalu(2);
+	}
+
+}

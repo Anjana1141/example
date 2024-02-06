@@ -1,0 +1,24 @@
+package DefaultSorting;
+
+import java.util.TreeSet;
+
+public class StudentsMain {
+	public static void main(String[] args) {
+		
+		Students s1 = new Students("Anju",03,"CSE");
+		Students s2 = new Students("Pranav",05,"Mech");
+		Students s3 = new Students("Amal",01,"Civil");
+		Students s4 = new Students("Navya",04,"ECE");
+		
+		TreeSet<Students> t = new TreeSet<Students>();
+		t.add(s1);
+		t.add(s2);
+		t.add(s3);
+		
+		for(Students s:t) {
+			System.out.println(s);
+		}
+		
+	}
+
+}

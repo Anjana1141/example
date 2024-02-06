@@ -1,0 +1,23 @@
+package DefaultSorting;
+
+class Students implements Comparable<Students>{
+	String name;
+	int rollNo;
+	String branch;
+	
+	Students(String name, int rollNo,String branch){
+		this.name=name;
+		this.rollNo=rollNo;
+		this.branch=branch;
+		
+		
+	}
+	public String toString() {
+		return rollNo+" : rollNo \n"+ name + " : name "+branch+" :branch";
+	}
+	public int compareTo(Students s) {
+		return this.name.compareTo(s.name);
+	}
+	
+
+}

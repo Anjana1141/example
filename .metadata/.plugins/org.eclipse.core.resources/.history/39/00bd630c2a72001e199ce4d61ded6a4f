@@ -1,0 +1,15 @@
+package Practise;
+
+public class Yy extends Xam {
+	Yy(){
+		super(24);
+		System.out.println(22);
+		
+			
+		
+	}
+	public static void main(String[] args) {
+		Yy y = new Yy();
+	}
+
+}

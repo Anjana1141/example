@@ -1,0 +1,11 @@
+package Practise;
+
+public class xx1 {
+xx1(int age){
+	System.out.println(20);
+}
+
+public xx(int age) {
+	// TODO Auto-generated constructor stub
+}
+}

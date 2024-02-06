@@ -1,0 +1,19 @@
+package Com;
+
+class Employee {
+	Employee(int id , String name ){
+		this(20);
+		System.out.println("id :" + id + " name :" +name);
+		}
+	Employee(int age){
+		this(2.5);
+		System.out.println("age :" +age );
+		
+	}
+	 Employee(double sal){
+		 System.out.println("sal :" + sal);
+	 }
+	  	public static void main(String[] args) {
+			Employee e = new Employee(100, "TOM");
+		}
+}

@@ -1,0 +1,19 @@
+package Practise;
+
+class Father{
+    void bike{
+        System.out.println("fb");
+    }
+}
+class Son extends Father{
+    @Override
+    void bike{
+        System.out.println("fb");
+    }
+}
+class Teest{
+    public static void main(String[] args){
+        Son s = new Son();
+        s.bike();
+    }
+}

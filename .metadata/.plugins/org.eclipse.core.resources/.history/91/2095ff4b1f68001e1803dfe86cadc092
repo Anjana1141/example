@@ -1,0 +1,29 @@
+package com;
+
+import java.util.Scanner;
+
+public class Triangle {
+
+	void area(int a , int b) {
+		System.out.println("area of the triangle :");
+	}
+	
+	public static void main(String[] args) {
+		Triangle t = new Triangle();
+		Scanner s = new Scanner(System.in);
+		System.out.println("ENTER THE VALUE OF A : ");
+		int a = s.nextInt();
+		System.out.println("enter the value of b : ");
+		int b = s.nextInt();
+		s.close();
+		System.out.println("area of triangle : " + 0.5*(a*b));
+		t.area(a, b);
+		
+		
+	}
+	
+
+
+
+
+}

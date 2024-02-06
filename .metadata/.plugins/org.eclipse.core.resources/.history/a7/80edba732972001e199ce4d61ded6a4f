@@ -1,0 +1,15 @@
+package Practise;
+
+public class Yy extends xx {
+	Yy(String name){
+		super(24);
+		System.out.println("yvnb");
+		
+			
+		
+	}
+	public static void main(String[] args) {
+		Yy y = new Yy();
+	}
+
+}

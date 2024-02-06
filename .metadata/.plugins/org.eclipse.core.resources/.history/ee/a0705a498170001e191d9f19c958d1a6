@@ -1,0 +1,18 @@
+package Practise;
+
+class SingleInheritance {
+
+	int age = 45;
+}
+
+class Tests {
+
+	public static void main(String [] args){
+		Son s = new Son();
+		System.out.println("age of father : "+ s.age);
+		System.out.println("age of son : " +s.y);
+
+	}
+}
+
+

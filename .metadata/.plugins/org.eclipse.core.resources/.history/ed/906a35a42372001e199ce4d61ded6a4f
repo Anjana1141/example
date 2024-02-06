@@ -1,0 +1,38 @@
+package Practise;
+
+ class Test {
+	
+	void doSome() {
+		System.out.println("fb");
+		
+	}
+	double doSomething() {
+		return 25;
+	}
+}
+	
+class Check{
+		public static void main(String[] args) {
+			Check t = new Check(); {
+				t.doSome();
+				t.doSomething();
+			}
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+	
+
+
+
